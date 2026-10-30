@@ -1,0 +1,75 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="El tema | Talento sin género">
+    <Hero
+        label="Conocer para cambiar"
+        title="Igualdad de género"
+        subtitle="La educación técnico-profesional debe entregar las mismas oportunidades a todas las personas."
+        image="/images/hero_tema.jpg"
+        alt="Estudiantes trabajando en un taller técnico"
+    />
+
+    <section class="section">
+        <h2 class="section-title">Desafíos actuales</h2>
+
+        <p class="section-description">
+            Aunque existen avances en igualdad de género, todavía hay barreras y
+            estereotipos que pueden influir en las decisiones educativas y
+            profesionales de los estudiantes.
+        </p>
+
+        <div class="card-grid">
+            <Card
+                image="/images/estereotipos.jpg"
+                alt="Estudiante en una especialidad técnica"
+                title="Estereotipos"
+                description="La idea de que algunas especialidades son solo para hombres o para mujeres."
+            />
+
+            <Card
+                image="/images/desigualdad.jpg"
+                alt="Balanza que representa la igualdad"
+                title="Desigualdad"
+                description="Las diferencias en oportunidades de participación y desarrollo dentro de algunas áreas técnicas."
+            />
+
+            <Card
+                image="/images/referentes.jpg"
+                alt="Mujer desarrollándose en tecnología"
+                title="Falta de referentes"
+                description="La poca visibilidad de personas que muestran que cualquier género puede destacar en distintas especialidades."
+            />
+
+            <Card
+                image="/images/discriminacion.jpg"
+                alt="Estudiantes compartiendo en un espacio educativo"
+                title="Discriminación"
+                description="Comentarios y actitudes que pueden hacer que una persona se sienta excluida por su género."
+            />
+
+            <Card
+                image="/images/orientacion_vocacional.jpg"
+                alt="Señales que representan distintas opciones"
+                title="Orientación vocacional"
+                description="La importancia de orientar a los estudiantes según sus intereses y capacidades, sin prejuicios."
+            />
+
+            <Card
+                image="/images/participacion.jpg"
+                alt="Estudiantes colaborando en un proyecto"
+                title="Participación"
+                description="Promover que todas las personas puedan participar activamente en clases, talleres y actividades."
+            />
+        </div>
+
+        <div class="highlight">
+            <strong>Reflexionemos:</strong>
+            La elección de una especialidad debe depender de los intereses, habilidades
+            y metas de cada persona, no de los estereotipos.
+        </div>
+    </section>
+</Layout>

@@ -1,0 +1,56 @@
+<header class="navbar">
+    <a href="/" class="logo">✿ Talento sin género</a>
+
+    <nav aria-label="Navegación principal">
+        <a href="/">Inicio</a>
+        <a href="/tema">El tema</a>
+        <a href="/recursos">Recursos</a>
+    </nav>
+</header>
+
+<style>
+    .navbar {
+        background: #ffffff;
+        padding: 20px 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        box-shadow: 0 3px 15px #6c43851a;
+    }
+
+    .logo {
+        color: #70469a;
+        font-size: 23px;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+    nav {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        color: #59456d;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    nav a:hover {
+        color: #a16bd0;
+    }
+
+    @media (max-width: 600px) {
+        .navbar {
+            justify-content: center;
+            text-align: center;
+        }
+
+        nav {
+            justify-content: center;
+        }
+    }
+</style>

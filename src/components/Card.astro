@@ -1,0 +1,51 @@
+---
+const { image, alt, title, description } = Astro.props;
+---
+
+<article class="card">
+    <img src={image} alt={alt} loading="lazy" />
+    <div class="content">
+        <h3>{title}</h3>
+        <p>{description}</p>
+    </div>
+</article>
+
+<style>
+    .card {
+        background: white;
+        border: 2px solid #eee2fa;
+        border-radius: 22px;
+        overflow: hidden;
+        box-shadow: 0 7px 20px #76509e12;
+        transition:
+            transform 0.2s,
+            box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 25px #76509e25;
+    }
+
+    .card img {
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .content {
+        padding: 22px;
+    }
+
+    h3 {
+        color: #70469a;
+        margin: 0 0 10px;
+    }
+
+    p {
+        color: #6d6178;
+        line-height: 1.7;
+        margin: 0;
+    }
+</style>

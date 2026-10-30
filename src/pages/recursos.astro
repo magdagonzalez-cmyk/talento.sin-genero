@@ -1,0 +1,75 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Recursos | Talento sin género">
+    <Hero
+        label="Construyamos un futuro mejor"
+        title="Propuestas de cambio"
+        subtitle="Pequeñas acciones pueden generar grandes cambios para una educación técnico-profesional más inclusiva, respetuosa e igualitaria."
+        image="/images/hero_recursos.jpg"
+        alt="Estudiante con materiales educativos"
+    />
+
+    <section class="section">
+        <h2 class="section-title">¿Cómo podemos mejorar?</h2>
+
+        <p class="section-description">
+            La igualdad de género se construye con acciones concretas dentro de
+            los establecimientos educacionales, los talleres y las salas de
+            clases.
+        </p>
+
+        <div class="card-grid">
+            <Card
+                image="/images/campanas.jpg"
+                alt="Megáfono que representa una campaña"
+                title="Campañas de concientización"
+                description="Realizar actividades y campañas que promuevan el respeto y la igualdad de oportunidades."
+            />
+
+            <Card
+                image="/images/mostrar_referentes.jpg"
+                alt="Estudiantes trabajando juntos"
+                title="Mostrar referentes"
+                description="Dar a conocer historias de mujeres y hombres que se desempeñan en diferentes áreas técnicas."
+            />
+
+            <Card
+                image="/images/oportunidades_educativas.jpg"
+                alt="Materiales educativos"
+                title="Igualdad de oportunidades"
+                description="Facilitar que todos los estudiantes puedan acceder a talleres, herramientas y experiencias de aprendizaje."
+            />
+
+            <Card
+                image="/images/educacion_inclusiva.jpg"
+                alt="Libros y materiales para aprender"
+                title="Educación inclusiva"
+                description="Incorporar contenidos y actividades que fomenten el respeto y eviten los prejuicios."
+            />
+
+            <Card
+                image="/images/eliminar_prejuicios.jpg"
+                alt="Imagen que representa el respeto"
+                title="Eliminar prejuicios"
+                description="Evitar comentarios y actitudes que relacionen determinadas especialidades con un género."
+            />
+
+            <Card
+                image="/images/trabajo_colaborativo.jpg"
+                alt="Grupo de estudiantes trabajando en equipo"
+                title="Trabajo colaborativo"
+                description="Promover equipos de trabajo donde todas las personas puedan aportar sus conocimientos y habilidades."
+            />
+        </div>
+
+        <div class="highlight">
+            <strong>Nuestro compromiso:</strong>
+            Queremos una educación técnico-profesional donde cada estudiante pueda
+            aprender, participar y alcanzar sus metas en igualdad de condiciones.
+        </div>
+    </section>
+</Layout>

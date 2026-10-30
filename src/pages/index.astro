@@ -1,16 +1,56 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Card from "../components/Card.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Inicio | Talento sin género">
+	<Hero
+		label="Educación para todos y todas"
+		title="Talento sin género"
+		subtitle="Las capacidades no tienen género. Hombres y mujeres merecen las mismas oportunidades para aprender, desarrollar sus talentos y construir su futuro."
+		image="/images/hero_inicio.jpg"
+		alt="Estudiantes compartiendo una experiencia educativa"
+	/>
+
+	<section class="section">
+		<h2 class="section-title">¿Qué es la igualdad de género?</h2>
+
+		<p class="section-description">
+			Es garantizar que todas las personas tengan los mismos derechos,
+			oportunidades y posibilidades de participación. En la educación
+			técnico-profesional significa que cada estudiante pueda elegir su
+			especialidad según sus intereses, habilidades y proyectos
+			personales.
+		</p>
+
+		<div class="card-grid">
+			<Card
+				image="/images/mujeres_areas_tecnicas.jpg"
+				alt="Mujer participando en un área técnica"
+				title="Mujeres en áreas técnicas"
+				description="Las mujeres pueden desarrollar sus habilidades en mecánica, electricidad, programación, informática y cualquier especialidad."
+			/>
+
+			<Card
+				image="/images/hombres_areas_tecnicas.jpg"
+				alt="Hombre trabajando en un taller técnico"
+				title="Hombres en todas las áreas"
+				description="Los hombres también deben poder elegir libremente cualquier especialidad, sin recibir prejuicios o presiones sociales."
+			/>
+
+			<Card
+				image="/images/igualdad_oportunidades.jpg"
+				alt="Estudiantes trabajando juntos"
+				title="Igualdad de oportunidades"
+				description="Todos los estudiantes merecen el mismo respeto, apoyo, participación y acceso a las herramientas educativas."
+			/>
+		</div>
+
+		<div class="highlight">
+			<strong>Un mensaje importante:</strong>
+			No existen especialidades exclusivas para hombres o mujeres. La capacidad
+			de aprender y trabajar no depende del género.
+		</div>
+	</section>
+</Layout>

@@ -1,0 +1,105 @@
+HERRAMIENTA DE INTELIGENCIA ARTIFICIAL UTILIZADA: ChatGPT
+PROYECTO: TALENTO SIN GÉNERO
+
+PROMPT 1:
+Necesito desarrollar un proyecto de desarrollo web utilizando
+Astro, HTML y CSS. El tema principal será la igualdad de género
+en la educación técnico-profesional. El objetivo de la página
+es informar y crear conciencia sobre la importancia de que 
+hombres y mujeres tengan las mismas oportunidades para elegir
+una especialidad técnica, desarrollar sus habilidades y 
+construir su futuro profesional.
+
+PROMPT 2:
+Quiero que el sitio web tenga un diseño moderno, juvenil,
+atractivo y fácil de utilizar. El nombre del proyecto será
+"Talento sin género". Utiliza una combinación de colores
+lila pastel, lavanda, morado y blanco, procurando que la
+página tenga una apariencia alegre, ordenada y visualmente
+agradable. Evita los colores demasiado oscuros u opacos.
+
+PROMPT 3:
+Necesito organizar el proyecto siguiendo exactamente la
+estructura de carpetas y archivos entregada por el profesor.
+La estructura debe contener public/images, src/components, 
+src/layouts, src/pages y src/styles, además de los archivos 
+prompts.txt, package.json y astro.config.mjs. No agregues 
+carpetas ni archivos adicionales y respeta los nombres indicados.
+
+PROMPT 4:
+Ayúdame a desarrollar cuatro componentes reutilizables en 
+Astro para el sitio web: Navbar.astro, Footer.astro, 
+Card.astro y Hero.astro. El menú de navegación debe 
+permitir desplazarse entre las tres páginas, el pie de 
+página debe mostrar el nombre del proyecto y las tarjetas 
+deben permitir presentar información con imágenes, títulos y 
+descripciones.
+
+PROMPT 5:
+Crea un archivo Layout.astro que funcione como diseño 
+compartido para todas las páginas del proyecto. Debe 
+incorporar el menú de navegación, el contenido principal 
+y el pie de página. También debe incluir las etiquetas HTML 
+necesarias, configurar el idioma español y conectar 
+correctamente la hoja de estilos global.css.
+
+PROMPT 6:
+Desarrolla la página principal index.astro para presentar
+ el proyecto "Talento sin género". Debe incluir una sección 
+ de bienvenida, una explicación sobre qué significa la 
+ igualdad de género y tarjetas informativas sobre mujeres
+ en áreas técnicas, hombres en todas las áreas e igualdad
+ de oportunidades. Utiliza el diseño lila seleccionado y 
+ mantén una estructura clara.
+
+PROMPT 7:
+Desarrolla la página tema.astro para explicar la
+ igualdad de género en la educación técnico-profesional
+ y presentar sus principales desafíos actuales. Incluye
+ información sobre estereotipos, desigualdad, falta de
+ referentes, discriminación, orientación vocacional y
+ participación. Organiza los contenidos mediante tarjetas 
+ reutilizables.
+
+PROMPT 8:
+Desarrolla la página recursos.astro para presentar propuestas
+ que ayuden a mejorar la igualdad de género en la educación
+ técnico-profesional. Incluye campañas de concientización, 
+ referentes, igualdad de oportunidades, educación inclusiva,
+ eliminación de prejuicios y trabajo colaborativo.
+
+
+PROMPT 9:
+ Necesito que las tarjetas informativas del sitio web utilicen
+ fotografías en lugar de emojis. Las imágenes deben representar
+ estudiantes, mujeres y hombres en áreas técnicas, talleres,
+ tecnología, educación y trabajo en equipo. Mantén un estilo
+ visual coherente con los colores lila y morado del proyecto.
+
+PROMPT 10:
+Ayúdame a incorporar las fotografías en la carpeta
+ public/images y a utilizar sus rutas correctamente desde
+ los archivos Astro. Indica qué imagen corresponde a cada 
+ tarjeta y a cada portada de las tres páginas, evitando 
+ errores en los nombres de los archivos y las rutas.
+
+PROMPT 11:
+Revisa que los códigos de las tres páginas estén conectados 
+correctamente con los componentes Card.astro, Hero.astro y 
+Layout.astro. Comprueba que los nombres de las importaciones 
+coincidan con los archivos y que la navegación entre Inicio,
+ El tema y Recursos funcione correctamente.
+
+PROMPT 12:
+ Proporciona los códigos completos y ordenados de los archivos
+ necesarios para construir el sitio web, de manera que pueda
+ copiarlos directamente en Visual Studio Code. Respeta la
+ estructura solicitada por el profesor y utiliza Astro, HTML 
+ y CSS.
+
+PROMPT 13:
+Indica cómo ejecutar el proyecto desde la terminal 
+integrada de Visual Studio Code utilizando npm install 
+y npm run dev. Explica cómo abrir el sitio en el navegador 
+y revisar que las tres páginas y sus imágenes se visualicen 
+correctamente.

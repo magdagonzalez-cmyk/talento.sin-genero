@@ -1,0 +1,77 @@
+---
+const {
+    label,
+    title,
+    subtitle,
+    image,
+    alt = "Estudiantes en un espacio educativo",
+} = Astro.props;
+---
+
+<section class="hero">
+    <div class="hero-content">
+        <div class="text">
+            <span>{label}</span>
+            <h1>{title}</h1>
+            <p>{subtitle}</p>
+        </div>
+
+        <img src={image} alt={alt} />
+    </div>
+</section>
+
+<style>
+    .hero {
+        background: linear-gradient(120deg, #eee1fa, #d9c2f2, #f7eafa);
+        padding: 55px 8%;
+    }
+
+    .hero-content {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .text span {
+        display: inline-block;
+        background: white;
+        color: #8054a8;
+        padding: 9px 18px;
+        border-radius: 30px;
+        font-weight: 800;
+    }
+
+    h1 {
+        color: #634087;
+        font-size: clamp(38px, 5vw, 60px);
+        margin: 25px 0 15px;
+        font-weight: 900;
+    }
+
+    p {
+        color: #59456d;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .hero img {
+        width: 100%;
+        height: 330px;
+        object-fit: cover;
+        border-radius: 28px;
+        box-shadow: 0 10px 25px #67439430;
+    }
+
+    @media (max-width: 700px) {
+        .hero-content {
+            grid-template-columns: 1fr;
+        }
+
+        .hero img {
+            height: 240px;
+        }
+    }
+</style>
